@@ -1,0 +1,8 @@
+language: python
+python:
+    - 3.2
+    - 3.3
+install:
+    - pip install pytest
+script:
+    - py.test sample_test.py
